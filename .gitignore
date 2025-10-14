@@ -1,5 +1,5 @@
 # Ignore all secrets
-**/secrets.py
+**/secrets_words.py
 
 # IntelliJ project files
 .idea

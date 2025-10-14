@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 # coding=utf-8
 """
-Copyright
-15/03/2024
+Copyright Samuel Lloyd
+2025
 """
 
 import argparse
 import logging
 
-from template import logger, log_format
+from databaseversioncontrol import logger, log_format
 
 
 def main():
