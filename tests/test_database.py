@@ -16,7 +16,7 @@ import pytest
 
 from pathlib import Path
 
-from templateproject import *
+from databaseversioncontrol.database import Server, Databases, Database
 
 test_path = Path(__file__)
 
