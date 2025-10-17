@@ -105,7 +105,11 @@ class Tables:
 
         result = self.cursor.fetchone()
         if result:
-            return format_sql(result[1])
+            if self.table_type == "VIEW":
+                return format_sql(result[1])
+            else:
+                return result[1]
+
         return None
 
     def get_all_create_statements(self):
